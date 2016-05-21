@@ -5,9 +5,9 @@ title: X
 
 <p>{{ site.images }}</p>
 
-{% for myimage in site.static_files %}<p>{{myimage.path}}</p>{% endfor %}
+{% for myimage in site.static_files %}<p>z{{myimage.path}}</p>{% endfor %}
 
-{% for myimage in site.images %}<p>{{myimage.path}}</p>{% endfor %}
+{% for myimage in site.images %}<p>x{{myimage.path}}</p>{% endfor %}
 
 {% for image in site.images %}
 {% if image.extname == 'jpg' %}
