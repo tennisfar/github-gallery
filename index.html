@@ -1,0 +1,5 @@
+{% for image in site.images %}
+{% if image.extname == 'jpg' %}
+<img src="{{ file.url }}"/> <p>{{ file.url }}</p>
+{% endif %}
+{% endfor %}
