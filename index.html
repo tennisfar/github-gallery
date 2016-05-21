@@ -10,7 +10,7 @@
     <main>
         {% for myimage in site.static_files %}
             {% if myimage.path contains '/images/' %}
-                <img src="{{ myimage.path }}" alt="{{ myimage.path }}" />
+                <img src=".{{ myimage.path }}" alt="{{ myimage.path }}" />
             {% endif %}
         {% endfor %}
     </main>
