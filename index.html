@@ -1,17 +1,22 @@
 ---
-layout: default
-title: X
 ---
 
-<p>{{ site.images }}</p>
+<!DOCTYPE html>
+<html lang="en">
 
-{% for myimage in site.static_files %}<p>z{{myimage.path}}</p>{% endfor %}
+<body>
 
-{% for myimage in site.images %}<p>x{{myimage.path}}</p>{% endfor %}
+<div class="container">
+    <main>
+        {% for myimage in site.static_files %}
+            {% if myimage.path contains '/images/' %}
+                <img src="{{ myimage.path }}" alt="{{ myimage.path }}" />
+            {% endif %}
+        {% endfor %}
+    </main>
+</div>
 
-{% for image in site.images %}
-{% if image.extname == 'jpg' %}
-<img src="{{ file.url }}"/>
-<p>{{ file.url }}</p>
-{% endif %}
-{% endfor %}
+</body>
+</html>
+
+
