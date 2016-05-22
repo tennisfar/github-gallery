@@ -1,6 +1,7 @@
 ---
 title:          GitHub Gallery
 image_folder:   /images/
+max_width:      900px
 sort_by:        modified_time   # modified_time or path (notice: path is case sensitive)
 date_format:    "%A, %B %-d, %Y"
 ---
@@ -27,7 +28,9 @@ date_format:    "%A, %B %-d, %Y"
     <li class="ins-imgs-li" id="{{ img_name }}">
         <div class="ins-imgs-img" onclick=this.classList.toggle("zoom");>
             <a name="{{ img.path }}" href="#{{ img_name }}">
-                <img src=".{{ img.path }}" alt="{{ img.path }}"/>
+                <img src=".{{ img.path }}"
+                     alt="{{ img_name }}"
+                     style="max-width: {{ page.max_width }}"/>
             </a>
         </div>
         <div class="ins-imgs-label">Image name: {{ img_name }} (added {{ img_date }})</div>

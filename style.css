@@ -19,7 +19,6 @@ li.ins-imgs-li {
 }
 
 div.ins-imgs-img img {
-    max-width: 900px;
     outline: none;
     -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
@@ -27,7 +26,7 @@ div.ins-imgs-img img {
 }
 
 div.ins-imgs-img.zoom img {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 div.ins-imgs-label {
