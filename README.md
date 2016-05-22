@@ -1,1 +1,1 @@
-# github-pages-photo-gallery
+# GitHub Gallery
