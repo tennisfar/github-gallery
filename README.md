@@ -1,8 +1,8 @@
 # GitHub Gallery
 
-![Mock](https://github.com/lthr/github-gallery/blob/gh-pages/images/screenshot%20of%20github%20gallery.png?raw=true)
+![Mock](https://github.com/mikelothar/github-gallery/blob/gh-pages/images/screenshot%20of%20github%20gallery.png?raw=true)
 
-[Demo](http://lthr.io/github-gallery/) | [Repository](https://github.com/lthr/github-gallery)
+[Demo](https://mikelothar.github.io/github-gallery/) | [Repository](https://github.com/mikelothar/github-gallery)
 
 GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
 
@@ -17,6 +17,6 @@ There are two simple steps:
 * [Fork](https://help.github.com/articles/fork-a-repo/) the [GitHub Gallery repository](https://github.com/lthr/github-gallery).
 * [Add an image](https://help.github.com/articles/adding-a-file-to-a-repository/) into the /images/ folder. 
 
-Your GitHub Gallery should shortly after be available at [http://YOUR_USERNAME.github.io/github-gallery/](http://YOUR_USERNAME.github.io/github-gallery/).
+Your GitHub Gallery should shortly after be available at [https://YOUR_USERNAME.github.io/github-gallery/](http://YOUR_USERNAME.github.io/github-gallery/).
 
 You can ofcourse [delete the old images](https://help.github.com/articles/deleting-files/), as well as [renaming your repository](https://help.github.com/articles/renaming-a-repository/) for a prettier url. 
